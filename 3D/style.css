@@ -1,0 +1,108 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+:root {
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  --spacing: 350px;
+
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  /* Creating 12 equally sized columuns where we can position all of the children */
+
+}
+
+h1, h2, h3, blockquote {
+  font-family: elevon, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+  header {
+    background: var(--dark-bg);
+    grid-column: 2 / span 5;
+    /* start at the second column and span across 5 columns */
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+  }
+
+  section {
+    grid-column: 2 / 8;
+    /* this makes it start at the second column and end at the 8 column*/
+    padding: 1rem;
+    background: var(--dark-bg);
+    font-size: 1.25rem;
+    line-height: 1.8;
+    margin-bottom: var(--spacing);
+  }
+
+  blockquote {
+    margin: 0;
+    padding: 0;
+    grid-column: 2 / span 9;
+    margin-bottom: var(--spacing);
+    background-color:black;
+  }
+
+  blockquote h3 {
+    color: white;
+    font-size: 2.5rem;
+    display: inline;
+    line-height: 1;
+  }
+.school p {
+  color:white;
+    font-size: 1.25rem;
+    line-height: 1.7;
+  /*This creates line spacing between  breaklines/newlines
+  */
+}
+  .left {
+    grid-column: 6 / 12;
+  }
+.end p {
+    color: white;
+    font-size: 4rem;
+    display: inline;
+    line-height: 1;
+  }
+
+  br{
+    margin: bottom 5px;
+  }

@@ -1,0 +1,35 @@
+first do npm init @vitejs/app
+commands  cd to the smaller folder and do  npm install npm run dev
+  then install 3d js by doing npm install three
+
+
+  then do npm run dev
+
+
+then step up a canvas that covers the whole screen do 
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+then create scene the camera and render to get the page completly blank 
+then add theses
+renderer.setPixelRatio(window.devicePixelRatio);
+renderer.setSize(window.innerWidth, window.innerHeight);
+
+
+  //can call callback functions to be notifed when that image is done loading thats usally when you want to show a loading bar 
+  // when oyu put images out of a folder/in same folderyou can use them in files in the same folder/out of folder without importing them 
+
+  //<p>The best way out is always through <br>-Robert Frost</p>
+  can use to break lines in a paragraph to put the next wors in a new line
+
+
+  //document.querySelector('#app').innerHTML = `
+//  <h1>Hello Vite!</h1>
+//  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
+  
+//All of that is putting html content inside the app called div 
+`
